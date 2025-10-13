@@ -1,5 +1,5 @@
 /*Google Fonts - Lato and Oswald*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap");
 
 /*Asterisk wildcard selector to overide default styles  added by the browsers*/
 * {
@@ -8,31 +8,34 @@
   box-sizing: border-box;
 }
 /*general styles*/
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*generic project styles*/
-    color:#3a3a3a;
-    /*added font family*/
-    font-family: 'Lato', sans-serif;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*generic project styles*/
+  color: #3a3a3a;
+  /*added font family*/
+  font-family: "Lato", sans-serif;
 }
 /*Header*/
 header {
-  background-color: lightcoral;
-
+  background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
-h1{
-    font-family: 'Oswald', sans-serif;
+h1 {
+  font-family: "Oswald", sans-serif;
 }
 /*Main Content*/
 main {
   background-color: lightblue;
-/*make main element take up any surplus space to push footer down*/
-    flex: 1 0 auto;
+  /*make main element take up any surplus space to push footer down*/
+  flex: 1 0 auto;
 }
 /*Footer*/
 footer {
   background-color: orange;
-  
 }
