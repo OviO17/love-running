@@ -140,8 +140,24 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg{
+
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+margin-bottom: 20px; 
+/*makes the square a circle*/
+border-radius: 50%;
+max-width: 300px;
+max-height: 300px;
+}
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
-#social-networks {
+#social-networks{
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -196,6 +212,7 @@ main {
         right: 50px;
     }
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
